@@ -46,7 +46,7 @@ pipeline {
         input('Do you want to proceed?')
       }
     }
-    stage('Deploy to Stage') {
+    stage('Deploy To Stage') {
       environment {
         HOSTS = "dev"
       }
